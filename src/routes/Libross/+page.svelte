@@ -115,7 +115,8 @@
     ]; 
     let filteredItems = items; 
     function handleSearch() { 
-        filteredItems = items.filter(item => item.title.toLowerCase().includes(searchQuery.toLowerCase())); 
+        filteredItems = items.filter(item => item.title.toLowerCase().includes(searchQuery.toLowerCase()));
+        filteredItems = items.filter(item => item.author.toLowerCase().includes(searchQuery.toLowerCase()));  
     }
 </script>
 
