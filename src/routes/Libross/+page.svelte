@@ -111,6 +111,133 @@
             image: 'https://th.bing.com/th/id/OIP.l6PbFg5hJTuNbgu-jgi5RAHaLc?rs=1&pid=ImgDetMain', 
             link: 'Franks.pdf' 
         },
+        { 
+            title: 'Breakfast at Tiffanys', 
+            author: 'Truman Capote', 
+            image: 'https://th.bing.com/th/id/OIP.7iL5as7b05uQZGmdCAPk5QAAAA?rs=1&pid=ImgDetMain', 
+            link: 'Breakfast.pdf' 
+        },
+        { 
+            title: 'The House on Mango Street', 
+            author: 'Sandra Cisneros', 
+            image: 'https://cdn.slidesharecdn.com/ss_thumbnails/0679734775-thehouseonmangostreetbysandracisneros-181105161326-thumbnail-4.jpg?cb=1541434445', 
+            link: 'Mangostreet.pdf' 
+        },
+        { 
+            title: 'The Lottery', 
+            author: 'Shirley Jackson', 
+            image: 'https://th.bing.com/th/id/OIP.-VMslK9sirncwWST0C6spwHaKg?rs=1&pid=ImgDetMain', 
+            link: 'lottery.pdf' 
+        },
+        { 
+            title: 'The Little Prince', 
+            author: 'Antoine de Saint-Exupéry', 
+            image: 'https://imagessl1.casadellibro.com/a/l/t0/11/9783965448711.jpg', 
+            link: 'ThePrince.pdf' 
+        },
+        { 
+            title: 'The Giver', 
+            author: 'Lois Lowry', 
+            image: 'https://cdn11.bigcommerce.com/s-gibnfyxosi/images/stencil/2560w/products/172091/173708/41UGoSAEkKL__54825.1615625836.jpg?c=1', 
+            link: 'The Giver.pdf' 
+        },
+        { 
+            title: 'Coraline', 
+            author: 'Neil Gaiman', 
+            image: 'https://th.bing.com/th/id/OIP.fJTbPSbzW3LQexwKiljZMwAAAA?rs=1&pid=ImgDetMain', 
+            link: 'coraline.pdf' 
+        },
+        { 
+            title: 'The War of the Worlds', 
+            author: 'H.G. Wells', 
+            image: 'https://th.bing.com/th/id/OIP.rLF2r6tLSFNJ1ZxrMj_s6wAAAA?rs=1&pid=ImgDetMain', 
+            link: 'Warofworlds.pdf' 
+        },
+        { 
+            title: 'Animal Farm', 
+            author: 'George Orwell', 
+            image: 'https://th.bing.com/th/id/R.86b7dd2623658b5113f3602b3196a752?rik=Ox0xfOfNTQfU6g&pid=ImgRaw&r=0', 
+            link: 'animalfarm.pdf' 
+        },
+        { 
+            title: 'Charlottes Web', 
+            author: 'E.B. White', 
+            image: 'https://th.bing.com/th/id/OIP.Kgn-5cc9dDGvajcGsrYPhwAAAA?rs=1&pid=ImgDetMain', 
+            link: 'Charlotte.pdf' 
+        },
+        { 
+            title: 'The Tale of Peter Rabbit ', 
+            author: 'Beatrix Potter', 
+            image: 'https://www.familyandhomeliving.com/wp-content/uploads/2022/03/the-tale-of-peter-rabbit-pdf-768x576.jpg', 
+            link: 'PeterRabbit.pdf' 
+        },
+        { 
+            title: 'Flatland: A Romance of Many Dimensions', 
+            author: 'Edwin A. Abbott', 
+            image: 'https://th.bing.com/th/id/OIP.m42d6OmP4UUgTiBbYnSCZwAAAA?rs=1&pid=ImgDetMain', 
+            link: 'flatland.pdf' 
+        },
+        { 
+            title: 'The Curious Case of Benjamin Button', 
+            author: 'F. Scott Fitzgerald', 
+            image: 'https://th.bing.com/th/id/OIP.9mXrFIaJWC0UAxeRS7p4nAHaLp?rs=1&pid=ImgDetMain', 
+            link: 'The Curious Case.pdf' 
+        },
+        { 
+            title: 'The Little Match Girl', 
+            author: 'Hans Christian Andersen', 
+            image: 'https://th.bing.com/th/id/R.60e499721124a9bdedb6293b77284603?rik=W9L9kl%2fWmB3Cww&pid=ImgRaw&r=0', 
+            link: 'littlematchgirl.pdf' 
+        },
+        { 
+            title: 'Manual para mujeres de la limpieza', 
+            author: 'Lucia Berlin', 
+            image: 'https://th.bing.com/th/id/R.d621807f7adcbaa2c0914c640ada9185?rik=j99U6NKpttBqvQ&pid=ImgRaw&r=0', 
+            link: 'manuelmujeres.pdf' 
+        },
+        { 
+            title: 'Casa de muñecas', 
+            author: 'Patricia Esteban Erlés', 
+            image: 'https://th.bing.com/th/id/R.3b21ce403339f21973e82d1ea691b9af?rik=A6YlNGL6JaE78Q&riu=http%3a%2f%2flapiedradesisifo.com%2fwp-content%2fuploads%2f2014%2f06%2f44990.jpg&ehk=wfKJ%2fZXSeQmhTBfY%2f4hDnrMphzu8CbL11YZcHnM3nXg%3d&risl=&pid=ImgRaw&r=0', 
+            link: 'muñecas.pdf' 
+        },
+        { 
+            title: 'Las cosas que perdimos en el fuego', 
+            author: 'Mariana Enríquez', 
+            image: 'https://th.bing.com/th/id/OIP.aN9t_MNwnP_tSdUk77PsNAHaLo?rs=1&pid=ImgDetMain', 
+            link: 'lascosasqueperdimos.pdf' 
+        },
+        { 
+            title: 'Voces de Chernóbil', 
+            author: 'Svetlana Alexievich', 
+            image: 'https://th.bing.com/th/id/OIP.2D5U4cobXncPt_r7Dw0lggHaLQ?rs=1&pid=ImgDetMain', 
+            link: 'voceschernobil.pdf' 
+        },
+        { 
+            title: 'Historias de cronopios y de famas', 
+            author: 'Julio Cortázar', 
+            image: 'https://th.bing.com/th/id/R.9e902f94a54b3424ee8c23b201cc6c88?rik=OP61HfGlr1cMPA&pid=ImgRaw&r=0', 
+            link: 'Historiafamas.pdf' 
+        },
+        { 
+            title: 'El Aleph', 
+            author: 'Jorge Luis Borges', 
+            image: 'https://th.bing.com/th/id/OIP.bbIStDykoWaPZPhWr9thxgAAAA?rs=1&pid=ImgDetMain', 
+            link: 'Elaleph.pdf' 
+        },
+        { 
+            title: 'Los girasoles ciegos', 
+            author: 'Alberto Méndez', 
+            image: 'https://th.bing.com/th/id/R.7503b2adc34b324a92af43bff15a0555?rik=rzHqzhmRuSxU1A&pid=ImgRaw&r=0', 
+            link: 'losgirasoles.pdf' 
+        },
+        { 
+            title: 'El libro de los abrazos', 
+            author: 'Eduardo Galeano', 
+            image: 'https://th.bing.com/th/id/OIP.GPBupsFTJFA85ZAS-twqJgHaLf?rs=1&pid=ImgDetMain', 
+            link: 'abrazos.pdf' 
+        },
+        
 
     ]; 
     let filteredItems = items; 
