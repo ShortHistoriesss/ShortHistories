@@ -284,6 +284,7 @@
             <button on:click={handleSearch} class="btnb">Buscar</button>
         </div>
         <nav class="active">
+            <a href="/Escribe">Comienza a escribir</a>
             <a href="#final">Redes sociales</a>
             <a href=""> aa</a>
         </nav>
@@ -304,6 +305,8 @@
                         </a> 
                     </div> 
                 </div> 
+                
+                
             {/each}
         </div>
     </section>

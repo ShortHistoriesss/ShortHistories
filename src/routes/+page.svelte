@@ -85,7 +85,7 @@
 						<span>Escribe y lee contenido</span>
 						<br> <br>
 						Las personas tendran acceso a subir historias y/o leerlas, podran demostrar su creatividad
-						y tambien ganaran seguidores. <br> <span>(Proximamente)</span>
+						y tambien ganaran seguidores. <br> <span>(Desarrollo)</span>
 					</h3>
 				</div>
 			</div>
