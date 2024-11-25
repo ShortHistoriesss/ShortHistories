@@ -236,15 +236,14 @@
             author: 'Eduardo Galeano', 
             image: 'https://th.bing.com/th/id/OIP.GPBupsFTJFA85ZAS-twqJgHaLf?rs=1&pid=ImgDetMain', 
             link: 'abrazos.pdf' 
-        },
+        }
         
-
-    ]; 
+    ];
     let filteredItems = items; 
     function handleSearch() { 
         filteredItems = items.filter(item => item.title.toLowerCase().includes(searchQuery.toLowerCase()));
-        filteredItems = items.filter(item => item.author.toLowerCase().includes(searchQuery.toLowerCase()));  
-    }
+        filteredItems = items.filter(item => item.author.toLowerCase().includes(searchQuery.toLowerCase())); 
+    };
 </script>
 
 <svelte:head>
@@ -286,7 +285,7 @@
         <nav class="active">
             <a href="/Escribe">Comienza a escribir</a>
             <a href="#final">Redes sociales</a>
-            <a href=""> aa</a>
+            <a href="."> aa</a>
         </nav>
     </div>
 
