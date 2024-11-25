@@ -29,7 +29,7 @@
 <svelte:head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> </title>
+    <title>Sube tu historia</title>
     <link rel="shortcut icon" href={Logo} type="image/x-icon">
 
     <style>
@@ -43,12 +43,13 @@
     }
 
     body{
-    font-size: 62.5%;
+    	font-size: 62.5%;
         width: 100%;
         height: 100vh;
         overflow-x: hidden;
         background-color: black;
         color: white;
+		
     }
 
     </style>
@@ -63,25 +64,31 @@
         </nav>
     </div>
 
-    <section> 
-		<div class="container"> 
-			<div class="input-field"> 
-				<input type="text" bind:value={pdfName} placeholder="Nombre del PDF" /> 
-			</div> 
-			<div> 
-				<input type="file" accept="application/pdf" id="fileInput" on:change={handleFileChange} /> 
-				<button class="btnb" on:click={addPdf}>Agregar PDF</button> 
-			</div> 
-			<div> 
-				{#each pdfs as pdf, index} 
-				<div class="pdf-item"> 
-					<a href={pdf.url} target="_blank" class="pdf-name">{pdf.name}</a> 
-					<button class="btnb" on:click={() => removePdf(index)}>Eliminar</button> 
+	<div class="r"> 
+		<section> 
+			<div class="container"> 
+				<div class="input-field"> 
+					<input type="text" bind:value={pdfName} placeholder="Nombre del PDF" /> 
 				</div> 
-				{/each} 
-			</div> 
-		</div>
-    </section>
+				<br>
+				<div class="file-input-container"> 
+					<label for="fileInput" class="file-input-label">Seleccionar PDF</label> 
+					<input type="file" accept="application/pdf" id="fileInput" class="file-input" on:change={handleFileChange} /> 
+					<button class="btnb" on:click={addPdf}>Agregar PDF</button> 
+				</div>
+				
+				<div class="pdf-list"> 
+					{#each pdfs as pdf, index} 
+						<div class="pdf-item"> 
+							<a href={pdf.url} target="_blank" class="pdf-name">{pdf.name}</a> 
+							<button class="btnb" on:click={() => removePdf(index)}>Eliminar</button> 
+						</div> 
+					{/each} 
+				</div>
+			</div>
+    	</section>
+	</div>
+    
 
 	<section id="final">
 			<h2>Si gustas puedes seguirnos en nuestras redes sociales </h2>
@@ -94,53 +101,116 @@
 
 
 <style>
-	.input-field {
-      max-width: 380px;
-      width: 100%;
-      background-color: #f0f0f0;
-      margin: 10px 0;
-      height: 55px;
-      border-radius: 55px;
-      display: grid;
-      grid-template-columns: 15% 85%;
-      padding: 0 0.4rem;
-      position: relative;
-      border: 2px solid #b74b4b;
-    }
 
-
-    .input-field input {
-      background: none;
-      outline: none;
-      border: none;
-      line-height: 1;
-      font-weight: 600;
-      font-size: 1.1rem;
-      color: #333;
-    }
-
-    .input-field input::placeholder {
-      color: #aaa;
-      font-weight: 500;
-	  
-    }
+	.r {
+		display: flex; 
+		justify-content: center; 
+		align-items: center; 
+		height: 100vh; 
+		margin: 0; 
+		background-color: black; 
+		color: white;
+	}
+	.file-input-container { 
+		display: flex; justify-content: center; 
+		align-items: center; 
+		flex-direction: row; 
+		margin-top: 20px; 
+	} 
 	
-	.pdf-item {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 10px;
-    }
-    .pdf-name {
-      margin-right: 10px;
-    }
+	.file-input-label { 
+		display: inline-block; 
+		padding: 0.7rem 2rem; 
+		background-color: black; 
+		border-radius: 4rem; 
+		font-size: 15px; 
+		color: #b74b4b; 
+		font-weight: 600; 
+		border: 2px solid #b74b4b; 
+		transition: 0.3s ease; 
+		cursor: pointer; 
+		margin-right: 10px; /* Espacio entre los botones */ 
+	} 
+	
+	.file-input-label:hover { 
+		transform: scale(1.03); 
+		background-color: #b74b4b; 
+		color: black; 
+		box-shadow: 0 0 25px #b74b4b; 
+	} 
+	
+	.file-input { 
+		display: none; 
+	} 
 
+	.input-field { 
+		max-width: 380px; 
+		width: 100%; 
+		background-color: #f0f0f0; 
+		margin: 10px 0; 
+		height: 55px; 
+		border-radius: 55px; 
+		display: flex; 
+		align-items: center; 
+		padding: 0 1rem; 
+		border: 2px solid #b74b4b; 
+	} 
+	
+	.input-field input { 
+		background: none; 
+		outline: none; 
+		border: none; 
+		width: 100%; 
+		height: 100%; 
+		line-height: 1; 
+		font-weight: 600; 
+		font-size: 1.1rem; 
+		color: #333; 
+		padding: 0 1rem; 
+	} 
+	
+	.input-field input::placeholder { 
+		color: #aaa; 
+		font-weight: 500; 
+	} 
+
+	.pdf-list { 
+		display: flex; 
+		flex-direction: column; 
+		align-items: center; 
+		margin-top: 20px; 
+	} 
+	
+	.pdf-item { 
+		display: flex; 
+		justify-content: space-between; 
+		align-items: center; 
+		width: 100%; 
+		background-color: #f0f0f0; 
+		padding: 10px;
+		margin: 10px 0; 
+		border-radius: 10px; 
+		border: 2px solid #b74b4b; 
+	} 
+	
+	.pdf-name { 
+		color: #333; 
+		font-weight: 600; 
+		text-decoration: none; 
+		font-size: 18px; 
+		margin-right: 10px; 
+	} 
+	
+	.pdf-name:hover { 
+		text-decoration: underline; 
+		color: #b74b4b; 
+	} 
+	
 	.container { 
 		display: flex; 
 		flex-direction: column; 
 		justify-content: flex-end; 
 		align-items: center; 
-		
 		padding: 120px 15px; 
 		background-repeat: no-repeat; 
 		background-size: cover; 
@@ -169,7 +239,6 @@
 		color: black; 
 		box-shadow: 0 0 25px #b74b4b; 
 	}
-
     .logo {
 		font-size: 25px;
 		color: #b74b4b;

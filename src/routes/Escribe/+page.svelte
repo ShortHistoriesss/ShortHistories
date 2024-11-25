@@ -52,7 +52,7 @@
 
     <section>
         <div class="container">
-            <h2><span> Comienza</span> </h2>
+            <h2><span> Escribe tu historia:</span> </h2>
             <textarea bind:value={text}></textarea>
             <button on:click={downloadPDF} class="btnb">Guardar</button>
         </div>
@@ -122,7 +122,7 @@
       width: 100%;
       height: 200px;
       margin-bottom: 10px;
-	  border-radius: 2rem;
+	  border-radius: 1rem;
 	  border: 4px solid #b74b4b;
     }
 
