@@ -283,7 +283,6 @@
         <p  class="logo"> <a href="./"> <img src={Logo} height="60px" width="60" alt="" /> </a>  </p>
         <div class="search-container">
             <input type="text" bind:value={searchQuery} on:input={handleSearch} class="search-box" placeholder="Buscar...">
-            
         </div>
         <nav class="active">
             <a href="/Escribe">Comienza a escribir</a>
