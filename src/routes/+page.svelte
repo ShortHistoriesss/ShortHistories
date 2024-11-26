@@ -74,7 +74,7 @@
 				</div>
 				<div class="carta">
 					<h3>
-						<span>Actividades dinamimcas </span><br> <br>
+						<span>Actividades dinamicas </span><br> <br>
 						Al finalizar de leer las historias habran unas actividades con el fin de mejorar la
 						comprension lectora. <br> <span>(Proximamente)</span>
 					</h3>
